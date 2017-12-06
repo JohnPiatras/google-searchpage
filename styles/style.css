@@ -366,6 +366,7 @@ a:hover {
 
 #foot {
 	width:100%;
+	min-width:1100px;
 	height:82px;
 	background-color:rgb(242,242,242);
 	border-top-color:rgb(228,228,228);
@@ -399,17 +400,22 @@ a:hover {
 	padding-right:27px;
 }
 
-#location {
+#loc_seperator {
 	display:inline-block;
-	line-height:15px;
 	margin-left:13px;
 	padding-left:16px;
 	border-left-width:1px;
 	border-left-style: solid;
 	border-left-color:rgb(228,228,228);
+	height:25px;
+	vertical-align:middle
+}
+
+#loc_text {
+	display:inline-block;
 	font-size:13px;
 	color:rgb(170,170,170);
-	height:25px;
+	line-height:13px;
 }
 
 #loc_spot {
